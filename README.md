@@ -17,9 +17,10 @@ Items needed
 
 EXAMPLES AND TESTING
 
+RUNNING THE OLED_INIT SKETCH
 .96 OLED Screen example
 Pin Outs 
-    - .96 OLED screen pins
+
     - SCL/SCK -> GPIO 3
     - SDA -> GPIO 2
     - VCC -> 3.3v
@@ -29,17 +30,16 @@ Save the ssd1306 Sketch to your Device.
 
 Open the oled_init Sketch and click the green arrow
 You should see "Hello World" if not
-    - Check your connections
-    - Make sure your screen is good
-    - the ssd1306 sketch is saved TO THE DEVICE BEFORE 
-    RUNNING THE OLED_INIT SKETCH
-
+- Check your connections
+- Make sure your screen is good
+- the ssd1306 sketch is saved TO THE DEVICE BEFORE 
 
 Joystick Module
 Pin Outs 
+
     - SW -> GPIO 28
     - VRy -> GPIO 27
-    - VRx -> GPIO 26
+    - XRx -> GPIO 26
     - VCC -> 3.3v
     - GND -> GND
 
@@ -63,6 +63,7 @@ your first time working with and LED. https://sl.bing.net/fyaGc6bb9WK
     - Blue LED -> GPIO 18
 Button Modules
 Pin outs
+    
     - (red)S -> GPIO 19
     - (blue)S -> GPIO 20
     - (both)VCC-> 3.3v
@@ -78,6 +79,7 @@ Open the "led_buttons.py" sketch and press the green arrow.
 
 Rotary Dial
 Pin Outs
+   
     - CLK -> GPIO 14
     - DT -> GPIO 15
     - SW -> GPIO 16
@@ -93,8 +95,7 @@ based on the way you turn the dial.
 Bread Board Bored Game
 
 Open the file that named "simon_says.py"
-Make sure the sketch ssd1306 is saved to your device.
-Press the green arrow.
+MAKE SURE THE FILE "ssd1306" IS SAVED TO YOUR DEVICE
 
 On the OLED screen an instruction will flash for 2 seconds,
 This is randomly chosen by the computer. Each level the computer
